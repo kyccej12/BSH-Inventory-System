@@ -247,7 +247,7 @@
 									</tr>
 									<tr><td height=2></td></tr>
 									<tr>
-										<td width=100% colspan=2><input type="text" class="nInput" id="cust_address" name="cust_address" value="<?php echo $res['caddr']?>" style="width: 100%;" placeholder="MANADAUE CITY" readonly></td>
+										<td width=100% colspan=2><input type="text" class="nInput" id="cust_address" name="cust_address" value="<?php echo $res['caddr']?>" style="width: 100%;" placeholder="MANDAUE CITY" readonly></td>
 									</tr>
 									<tr>
 										<td colspan=2 style="font-size: 9px; padding-left: 5px;" colspan=2 >Address</td>

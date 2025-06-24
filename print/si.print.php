@@ -12,7 +12,7 @@ function getFullDesc($icode) {
 /* MYSQL QUERIES SECTION */
 	$now = date("m/d/Y h:i a");
 	$co = getArray("select * from companies where company_id = '1';");
-	$_ihead = getArray("SELECT doc_no, doc_no AS rr, DATE_FORMAT(invoice_date,'%m/%d/%Y') AS d8, customer, IF(customer=0,'Walkin Sales',customer_name) AS customer_name, IF(customer='0','Surigao City',customer_addr) AS customer_addr, ROUND(amount+commission,2) AS amount, b.description AS terms, remarks, sales_rep FROM invoice_header a LEFT JOIN options_terms b ON a.terms = b.terms_id where doc_no ='$_REQUEST[docno]';");
+	$_ihead = getArray("SELECT doc_no, doc_no AS rr, DATE_FORMAT(invoice_date,'%m/%d/%Y') AS d8, customer, IF(customer=0,'Walkin Sales',customer_name) AS customer_name, IF(customer='0','Mandaue City',customer_addr) AS customer_addr, ROUND(amount+commission,2) AS amount, b.description AS terms, remarks, sales_rep FROM invoice_header a LEFT JOIN options_terms b ON a.terms = b.terms_id where doc_no ='$_REQUEST[docno]';");
 	$_idetails = dbquery("select item_code, description, qty, unit, unit_price AS cost, discount, ROUND(qty*(unit_price-discount),2) AS amount from invoice_details where doc_no = '$_REQUEST[docno]';");
 	$bcode = STR_PAD($_REQUEST['user'],2,'0',STR_PAD_LEFT)."-SI".$_ihead['doc_no']."-".date('Ymd');
 	list($nos, $stin, $isVat) = getArray("select tel_no, tin_no, vatable from contact_info where file_id = '$_ihead[customer]';");
