@@ -178,10 +178,9 @@
 							<td align="right" width="30%" class="bareBold" style="padding-right: 5px;">Purpose of Withdrawal&nbsp;:</td>
 							<td align=left>
 								<select class="gridInput" style="width:210px; font-size: 11px;" name="ref_type" id="ref_type" >
-									<option value="PU" <?php if($res['ref_type'] == "PU") { echo "selected"; } ?>>- Personal Use  -</option>
+									<option value="PU" <?php if($res['ref_type'] == "PU") { echo "selected"; } ?>>- For Production Of Finished Product  -</option>
 									<option value="MS" <?php if($res['ref_type'] == "MS") { echo "selected"; } ?>>- General Maintenance -</option>
-									<option value="SP" <?php if($res['ref_type'] == "SP") { echo "selected"; } ?>>- Stocks Pullout -</option>
-									<option value="CI" <?php if($res['ref_type'] == "CI") { echo "selected"; } ?>>- Change Item  -</option>
+									<option value="SP" <?php if($res['ref_type'] == "SP") { echo "selected"; } ?>>- For Kitchen Use/Supplies -</option>
 								</select>
 							</td>				
 						</tr>

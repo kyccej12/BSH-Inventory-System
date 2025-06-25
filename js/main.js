@@ -68,7 +68,7 @@ function showLoaderMessage() {
 
 /* Sales */
 function showOptions() {
-	$("#salesReportMain").dialog({ show: 'fade', title: "Main Menu", width: 960, height: 540, closable: false, modal: true,  open: function(event, ui) {
+	$("#salesReportMain").dialog({ show: 'fade', title: "Main Menu", width: 980, height: 580, closable: false, modal: true,  open: function(event, ui) {
       
     }});
 }

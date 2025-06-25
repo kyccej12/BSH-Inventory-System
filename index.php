@@ -57,9 +57,9 @@
 		<div>Main Menu</div>
 		<div><hr width=100% height=1></hr></div>
 		<div style="height: 10px;"></div>
-		<div class="fileObjects"><a href="#" onclick="showSI();"><img src="images/icons/cashregister.png" width=60 height=60 /><br/><br/>Point of Sale</a></div>
-		<div class="fileObjects"><a href="#" onclick="showCR();"><img src="images/icons/collections.png" width=60 height=60 /><br/><br/>Receive Payments</a></div>
-		<div class="fileObjects"><a href="#" onclick="showPCV();"><img src="images/icons/apv256.png" width=60 height=60 /><br/><br/>Petty Cash Voucher</a></div>
+		<!-- <div class="fileObjects"><a href="#" onclick="showSI();"><img src="images/icons/cashregister.png" width=60 height=60 /><br/><br/>Point of Sale</a></div> -->
+		<!-- <div class="fileObjects"><a href="#" onclick="showCR();"><img src="images/icons/collections.png" width=60 height=60 /><br/><br/>Receive Payments</a></div> -->
+		<!-- <div class="fileObjects"><a href="#" onclick="showPCV();"><img src="images/icons/apv256.png" width=60 height=60 /><br/><br/>Petty Cash Voucher</a></div> -->
 		<div class="fileObjects"><a href="#" onclick="showRRList();"><img src="images/icons/crr.png" width=60 height=60 /><br/><br/>Receive Stocks from Supplier</a></div>
 		<div class="fileObjects"><a href="#" onclick="showSW();"><img src="images/icons/widraw.png" width=60 height=60 /><br/><br/>Stocks Withdrawal</a></div>
 		<div class="fileObjects"><a href="#" onclick="showSRR();"><img src="images/icons/receiving.png" width=60 height=60 /><br/><br/>Stocks Receiving Slip</a></div>
@@ -75,11 +75,11 @@
 		<div>Reports</div>
 		<div><hr width=100% height=1></hr></div>
 		<div style="height: 10px;"></div>
-		<div class="fileObjects" onclick="showSalesReport();"><a href="#"><img src="images/icons/ordering128.png" width=60 height=60 /><br/><br/>Sales Report</a></div>
-		<div class="fileObjects" onclick="showGrossProfitSales();"><a href="#"><img src="images/icons/reports256.png" width=60 height=60 /><br/><br/>Gross Profit Sales Report</a></div>
-		<div class="fileObjects" onclick="showDSCR();"><a href="#"><img src="images/icons/catalog256.png" width=60 height=60 /><br/><br/>Daily Sales & Collection Report</a></div>
+		<!-- <div class="fileObjects" onclick="showSalesReport();"><a href="#"><img src="images/icons/ordering128.png" width=60 height=60 /><br/><br/>Sales Report</a></div> -->
+		<!-- <div class="fileObjects" onclick="showGrossProfitSales();"><a href="#"><img src="images/icons/reports256.png" width=60 height=60 /><br/><br/>Gross Profit Sales Report</a></div> -->
+		<!-- <div class="fileObjects" onclick="showDSCR();"><a href="#"><img src="images/icons/catalog256.png" width=60 height=60 /><br/><br/>Daily Sales & Collection Report</a></div>
 		<div class="fileObjects" onclick="showAR();"><a href="#"><img src="images/icons/dscr.png" width=60 height=60 /><br/><br/>Accounts Receivable Summary</a></div>
-		<div class="fileObjects" onclick="showPettyCashSummary();"><a href="#"><img src="images/icons/reports256.png" width=60 height=60 /><br/><br/>Petty Cash Summary</a></div>
+		<div class="fileObjects" onclick="showPettyCashSummary();"><a href="#"><img src="images/icons/reports256.png" width=60 height=60 /><br/><br/>Petty Cash Summary</a></div> -->
 		<div class="fileObjects" onclick="showInventoryReport();"><a href="#"><img src="images/icons/trading.png" width=60 height=60 /><br/><br/>Inventory Summary Report</a></div>
 		<div class="fileObjects" onclick="showReceiveSummary();"><a href="#"><img src="images/icons/dscr.png" width=60 height=60 /><br/><br/>Summary of Goods Received</a></div>
 		<div class="fileObjects" onclick="showWithdrawalReport();"><a href="#"><img src="images/icons/widraw.png" width=60 height=60 /><br/><br/>Withdrawal Summary</a></div>
