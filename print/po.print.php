@@ -178,7 +178,8 @@ table thead td {
 	<tr>
 		<td width=33% align=center><b>PREPARED BY:</b><br><br>'.$p->getUname($_REQUEST['user']).'<br></td>
 		<td width=33% align=center><b>CHECKED BY:<br/><br/>_________________________________________</b></td>
-		<td width=33% align=center><b>APPROVED BY:<br/><br/><u>&nbsp;&nbsp;&nbsp;&nbsp;Lovely Laurente Yuipco&nbsp;&nbsp;&nbsp;&nbsp;</u></b></td>
+		<td width=33% align=center><b>APPROVED BY:<br/><br/>_________________________________________</b></td>
+		<td width=33% align=center><b>APPROVED BY:<br/><br/>_________________________________________</b></td>
 	</tr>
 	</table>
 	<table>
